@@ -1,6 +1,6 @@
-Welcome to the OnesGame OAuth wiki!
+Welcome to the Ones Game DeFi Open Platform!
 
-ONES 游戏 DeFi 开放平台
+欢迎来到ONES游戏DeFi开放平台
 
 ## 概览
 
