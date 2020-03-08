@@ -15,20 +15,20 @@ if (env.ENV == "devnet") {
     OnesGameConfig.OauthHost = "devoauth.ones.game";
     // OnesGameConfig.OauthHost = "127.0.0.1";
 
-    OnesGameConfig.PayCallbackUrl = "http://127.0.0.1:5502?action=pay&type="
+    OnesGameConfig.PayCallbackUrl = "http://127.0.0.1:5500/demo/webapp?action=pay&type="
 } else if (env.ENV == "testnet") {
 
     OnesGameConfig.AccessKey = "";
     OnesGameConfig.SecretKey = "";
     OnesGameConfig.OauthHost = "devoauth.ones.game";
-    OnesGameConfig.PayCallbackUrl = "http://127.0.0.1:5502?action=pay&type="
+    OnesGameConfig.PayCallbackUrl = "http://127.0.0.1:5500/demo/webapp?action=pay&type="
 
 } else if (env.ENV == "mainnet") {
 
     OnesGameConfig.AccessKey = "";
     OnesGameConfig.SecretKey = "";
     OnesGameConfig.OauthHost = "oauth.ones.game";
-    OnesGameConfig.PayCallbackUrl = "http://127.0.0.1:5502?action=pay&type="
+    OnesGameConfig.PayCallbackUrl = "http://127.0.0.1:5500/demo/webapp?action=pay&type="
 }
 
 

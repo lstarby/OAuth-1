@@ -4,7 +4,7 @@ var OnesApp = {
     params: {},
 
     app_id: "qunheigame",
-    loginCallbackUrl: "http://127.0.0.1:5501/demo/webapp/?action=login",
+    loginCallbackUrl: "http://127.0.0.1:5500/demo/webapp/?action=login",
     onesLoginUrl: "https://test.ones.game/oauth/login?",
 
     constructor: function () {
