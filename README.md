@@ -13,7 +13,7 @@ Welcome to the Ones Game DeFi Open Platform!
 
 ## sdk
 
-1. 目前提供了 node 版本 SDK,请查看 nodejs 路径
+1. 目前提供了 node和php 版本 SDK,请查看 nodejs和php 路径
 2. 其他语言将在随后提供
 
 ## demo
