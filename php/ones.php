@@ -24,15 +24,31 @@ class ONES extends Base {
 	}
 
 	//
-	function getUserDetail() {
+	function getUserDetail($openID) {
 		$path = "/v1/user/detail";
-		return $this->sendPOST($path, array(), null);
+		$data = array(
+			"open_id"=>$openID
+		);
+		var_dump($data);
+		return $this->sendPOST($path, $data, null);
 	}
 
 	//
-	function prePay() {
+	function prePay($open_id, $trade_no, $coin_code, $amount, $scene,$desc,$device,$state,$redirect_url) {
 		$path = "/v1/pay/prepay";
-		return $this->sendGET($path, null, null);
+		$data = array( 
+				"open_id"=> $open_id,
+				"trade_no"=> $trade_no,
+				"coin_code"=> $coin_code,
+				"amount"=> $amount,
+				"scene"=>$scene,
+				"desc"=> $desc,
+				"device"=> $device,
+				"state"=> $state,
+				"redirect_url"=> $redirect_url,
+		);
+
+		return $this->sendGET($path, $data, null);
 	}
 
 	//
